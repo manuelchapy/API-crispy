@@ -1,0 +1,26 @@
+{
+  "name": "version-crispy",
+  "version": "1.0.0",
+  "description": "servicio de facturacion para restaurantes donde los comensales pagan despues de consumir.",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run index.js",
+    "dev": "nodemon src/index.js",
+    "start": "node src/index.js"
+  },
+  "keywords": [],
+  "author": "chapy",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.21"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "express-session": "^1.17.3",
+    "mysql2": "^3.2.0",
+    "pkg": "^5.8.1",
+    "random-integer": "^2.0.0",
+    "uniqid": "^5.4.0"
+  }
+}
